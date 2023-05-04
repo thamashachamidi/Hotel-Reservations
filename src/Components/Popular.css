@@ -1,0 +1,38 @@
+.secTitle{
+   
+    color: var(--blackColor);
+    line-height: 35;
+    padding-bottom: .5rem;
+}
+
+.popular{
+    padding-top: 15px;
+
+} 
+
+.secHeader{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+} 
+.p{
+    font-size: 13px;
+    color: var(--textColor);
+    font-weight: 500;
+
+} 
+.iconsDiv{
+    gap:0.5rem;
+} 
+.icon{
+    padding: .5rem;
+    background: var(--greyText);
+    border-radius: 50%;
+    font-size:2.5rem ;
+    
+} 
+.leftIcon{
+    background: var(--blackColor);
+    color:var(--whiteColor);
+    
+}

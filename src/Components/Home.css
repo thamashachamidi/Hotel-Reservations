@@ -1,0 +1,106 @@
+.home {
+    height: 70vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: auto;
+   
+}
+
+.hometext {
+    text-align: center;
+
+}
+
+.title {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    ;
+}
+
+.subTitle {
+    color: blue;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 1rem 0;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+
+
+}
+
+.homeCard {
+    width: 80%;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: var(--textColor);
+    position: absolute;
+    gap: 1rem;
+    justify-content: center;
+    bottom: 1%;
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+
+
+
+
+}
+
+.locationDiv {
+    width: 100%;
+
+
+}
+
+.distDiv {
+    width: 100%;
+}
+
+.priceDiv {
+    width: 100%;
+}
+
+.label {
+    display: block;
+    color: var(--textColor);
+    font-weight: 500;
+    font-size: 13px;
+    padding-bottom: .4rem;
+}
+
+.input {
+    width: 100%;
+    background: var(--inputColor);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.placeholder {
+    font-size: 9px;
+    opacity: .5;
+    font-weight: 500;
+} 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
